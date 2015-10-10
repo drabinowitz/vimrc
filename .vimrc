@@ -29,7 +29,7 @@ nnoremap <leader>u :GundleToggle<CR>
 
 nnoremap <leader>s :mksession<CR>
 
-nnoremap <leader>a :Ag
+nnoremap <leader>a :Ag<space>
 
 set tabstop=2 shiftwidth=2 expandtab
 function TrimWhiteSpace()
@@ -88,6 +88,8 @@ let g:go_fmt_fail_silently = 1
 
 let g:syntastic_bash_checkers=['']
 
+let g:ag_working_path_mode="r"
+
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
@@ -96,3 +98,8 @@ set list
 set listchars=tab:\ \_
 
 set shell=bash
+
+nnoremap <leader>j <Char-23>w
+nnoremap <leader>k <Char-23>W
+nnoremap <leader>s <Char-23><Char-19>
+nnoremap <leader>v <Char-23><Char-22>
