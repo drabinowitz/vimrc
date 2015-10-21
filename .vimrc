@@ -2,7 +2,6 @@ let mapleader = ","
 execute pathogen#infect()
 syntax on
 syntax enable
-filetype plugin indent on
 
 set wildmenu
 set lazyredraw
@@ -65,10 +64,6 @@ let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:50,results:50'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
 set wildignore+=*/node_modules/*,*.swp,*.pyc,*/build/*,*/target/*,*/_vendor/*
-let g:indent_guides_auto_colors = 0
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_guide_size = 1
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=0
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
