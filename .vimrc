@@ -2,6 +2,7 @@ let mapleader = ","
 execute pathogen#infect()
 syntax on
 syntax enable
+filetype plugin indent on
 
 set wildmenu
 set lazyredraw
