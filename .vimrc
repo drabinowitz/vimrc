@@ -99,3 +99,8 @@ nnoremap <leader>j <Char-23>w
 nnoremap <leader>k <Char-23>W
 nnoremap <leader>s <Char-23><Char-19>
 nnoremap <leader>v <Char-23><Char-22>
+
+nnoremap <leader>eq <Char-58>Tab<Char-47><Char-61><CR>
+nnoremap <leader><Char-58> <Char-58>Tab<Char-47><Char-58><Char-92>zs<CR>
+vnoremap <leader>eq <Char-58>Tab<Char-47><Char-61><CR>
+vnoremap <leader><Char-58> <Char-58>Tab<Char-47><Char-58><Char-92>zs<CR>
