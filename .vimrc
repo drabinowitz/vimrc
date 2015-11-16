@@ -25,7 +25,7 @@ nnoremap E $
 nnoremap $ <nop>
 nnoremap ^ <nop>
 
-nnoremap <leader>u :GundleToggle<CR>
+nnoremap <leader>u :GundoToggle<CR>
 
 nnoremap <leader>s :mksession<CR>
 
@@ -63,6 +63,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:50,results:50'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+let g:ctrlp_working_path_mode = 'a'
 
 set wildignore+=*/node_modules/*,*.swp,*.pyc,*/build/*,*/target/*,*/_vendor/*
 
@@ -83,8 +84,6 @@ let g:vim_markdown_folding_disabled=1
 let g:go_fmt_fail_silently = 1
 
 let g:syntastic_bash_checkers=['']
-
-let g:ag_working_path_mode="r"
 
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
