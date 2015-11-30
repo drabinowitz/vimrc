@@ -63,7 +63,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:50,results:50'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-let g:ctrlp_working_path_mode = 'a'
+let g:ctrlp_working_path_mode = 'ra'
 
 set wildignore+=*/node_modules/*,*.swp,*.pyc,*/build/*,*/target/*,*/_vendor/*
 
